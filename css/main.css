@@ -1,0 +1,313 @@
+.Container {
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,1);
+	margin: auto;
+	opacity: 1;
+	
+	
+}
+.Top {
+	width: 100%;
+	height: 10%;
+	background: rgba(203,153,126,1);
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	opacity: 1;
+
+}	
+
+.TopLeft {
+	float:left;
+	width: 50%;
+	height: 100%;
+	
+	
+	opacity: 1;
+	
+}	
+
+.TopRight {
+	float:right;
+	width: 50%;
+	height: 100%;
+	
+	
+	opacity: 1;
+	
+}	
+
+.Button {
+	position:absolute;
+	height:50px;
+	width:50px;
+	left:10px;
+	top:10px;
+	z-index:5;
+}
+
+#Forward {
+	left:90%;
+	display:block;
+}
+
+#Back {
+	left:5%;
+	display:block;
+}
+
+.MenuItems {
+	
+	text-decoration: none;
+	float:left;
+	margin-left: 35px;
+	margin-right: 10px;
+	margin-top:2%;
+	text-align: center;
+	
+	height:50px;
+	color:rgba(71,45,48,1);
+	font-family: Merriweather;
+	font-weight: Black;
+	font-size: 40px;
+}	
+
+.Center {
+	position:absolute;
+	width: 100%;
+	height: 80%;
+	background: rgba(221,190,169,1);
+	position:absolute;
+	top:10%;
+	left:0px;
+	opacity: 1;
+
+}
+
+.CenterBox {
+	width:100%;
+	height:50%;
+}
+
+	
+.CenterLeft {
+	position:relative;
+	width:50%;
+	height:90%;
+	float:left;	
+	
+}
+
+.CenterRight {
+	position:relative;
+	width:50%;
+	height:90%;
+	
+	float:right;
+}
+
+.ParagraphText {
+	margin:16% auto;
+	width:70%;
+	font-family: Merriweather;
+	font-size: 30px;
+	text-wrap: balance;
+	text-align:left;
+	z-index:2;
+}
+
+.ParagraphAboutText {
+	margin:5% auto;
+	width:70%;
+	font-family: Merriweather;
+	font-size: 30px;
+	text-wrap: balance;
+	text-align:left;
+	z-index:2;
+}
+
+.ParagraphTypesText {
+	margin:10% auto;
+	width:70%;
+	font-family: Merriweather;
+	font-size: 30px;
+	text-wrap: balance;
+	text-align:left;
+	z-index:2;
+}
+
+
+.MainContent {
+	height:85%;
+	width:100%;
+	left:0px;
+	top:10%;
+	position:absolute;
+}
+
+.Image1 {
+	display:block;
+	position:absolute;
+	top: 20%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+	width:50%;
+	height:80%;
+	border-radius:25%;
+	z-index:1;
+}
+
+.Image2 {
+	display:block;
+	position:absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+	height:90%;
+	width:90%;
+	border-radius:25%;
+	z-index:1;
+
+}
+
+.Image3 {
+	display:block;
+	
+	margin:auto;
+	height:70%;
+	width:90%;
+	border-radius:25%;
+	z-index:1;
+
+}
+
+.Image4 {
+	display:block;
+	position:absolute;
+	top: 30px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin:0 auto;
+	height:70%;
+	width:50%;
+	border-radius:25%;
+	z-index:1;
+
+}
+
+.HeaderText {
+	width:60%;	
+	color:rgba(71,45,48,1);
+	font-family: Merriweather;
+	font-weight: bold;
+	font-size: 90px;
+	text-wrap: balance;
+	text-align:center;
+	z-index:2;
+	margin:10px auto;
+	 
+	}
+
+.MainHeaderText {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	width:60%;	
+	color:rgba(71,45,48,1);
+	font-family: Merriweather;
+	font-weight: bold;
+	font-size: 100px;
+	text-wrap: balance;
+	text-align:center;
+	z-index:2;
+	margin:auto;
+	 
+	}
+	
+
+.Bottom {
+	width: 100%;
+	height: 10%;
+	background: rgba(203,153,126,1);
+	position: absolute;
+	left: 0px;
+	top: 90%;
+	opacity: 1;
+}
+
+
+.TypesButton {
+	margin-left:13%;
+	margin-top:3%;
+	margin-bottom:1%;
+	width:300px;
+	height:200px;
+	border-radius:30px;
+	float:left;	
+}
+
+.TypesButton p {
+	color:rgba(71,45,48,1);
+	margin-top:15%;
+	font-family: Merriweather;
+	font-weight: bold;
+	font-size: 40px;
+	text-wrap: balance;
+	text-align:center;	
+}
+
+.ContactHeaderText {
+	width:60%;	
+	color:rgba(71,45,48,1);
+	font-family: Merriweather;
+	font-weight: normal;
+	font-size: 50px;
+	text-wrap: balance;
+	text-align:left;
+	z-index:2;
+	margin:9% auto 0 auto;	 
+}
+
+.ContactText {
+	width:60%;	
+	color:rgba(71,45,48,1);
+	font-family: Merriweather;
+	font-weight: normal;
+	font-size: 20px;
+	text-wrap: balance;
+	text-align:left;	
+	margin:0 auto 0 auto;
+	
+}
+
+.ContactLine {
+	width:60%;	
+	color:rgba(71,45,48,1);
+	font-family: Merriweather;
+	font-weight: bold;
+	font-size: 30px;
+	text-wrap: balance;
+	text-align:left;	
+	margin:10px auto;
+}
+
+.CenterRight .ContactText {
+	margin-top:10%;
+}
+
+.SubmitButton {
+	display:block;
+	margin-left:70%;
+	margin-top:30px;
+	padding:15px 32px;
+	border-radius: 8px;
+	border:none;
+}
